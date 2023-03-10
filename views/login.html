@@ -1,0 +1,38 @@
+<script src="https://kit.fontawesome.com/6edffaec60.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./styles.css">
+<div class="login-box">
+<h2>로그인</h2>
+<form id="test">
+<div class="user-box">
+  <input type="text" name="email" required="">
+  <label>이메일</label>
+</div>
+<div class="user-box">
+  <input type="password" name="password" required="">
+  <label>비밀번호</label>
+</div>
+<div>
+<a type="submit" onclick="document.getElementById('test').submit();" class="local">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  Submit
+</a></div>
+<a id="kakao" href="/auth/kakao" class="kakao">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <i class="fa-regular fa-comment"></i> Login With Kakao
+</a>
+<a href="/auth/google" class="google">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  <i class="fa-brands fa-google"></i> Login With Google
+</a>
+</form>
+</div>
+
